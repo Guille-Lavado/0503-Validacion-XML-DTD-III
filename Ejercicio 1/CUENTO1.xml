@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuento SYSTEM "marcadores_CUENTOS.dtd">
+<cuento cod="A01" titulo="La Cenicienta">
+    <personajes>
+        <personaje id="p1"  tipo="principal">
+            <nombre>Cenicienta</nombre>
+            <genero>F</genero>
+        </personaje>
+        <personaje id="p2"  tipo="antagonista">
+            <nombre>Madrastra</nombre>
+            <genero>F</genero>
+        </personaje>
+        <personaje id="p3">
+            <nombre>Príncipe</nombre>
+            <genero>M</genero>
+        </personaje>
+    </personajes>
+    <trama>Una joven maltratada por su madrastra asiste al baile del príncipe con ayuda de su hada madrina.</trama>
+    <etiqueta nombre="clásico"/>
+</cuento>

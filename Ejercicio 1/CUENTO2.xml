@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuento SYSTEM "marcadores_CUENTOS.dtd">
+<cuento cod="B02" titulo="El Dragón de las Sombras">
+    <personajes>
+        <personaje id="d1">
+            <nombre>Dragón Sombrio</nombre>
+            <genero>N</genero>
+        </personaje>
+        <personaje id="h1">
+            <nombre>Héroe del Alba</nombre>
+            <genero>M</genero>
+        </personaje>
+    </personajes>
+    <trama>Un héroe debe derrotar al dragón que amenaza con sumir el mundo en oscuridad eterna.</trama>
+    <etiqueta nombre="hadas"/>
+</cuento>

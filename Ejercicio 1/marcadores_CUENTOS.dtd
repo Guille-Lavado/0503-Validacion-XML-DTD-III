@@ -1,0 +1,26 @@
+<!ELEMENT cuento (personajes, trama, etiqueta?)>
+<!ATTLIST cuento
+  cod CDATA #REQUIRED
+  titulo CDATA #REQUIRED>
+
+<!ELEMENT personajes (personaje+)>
+<!ELEMENT personaje (nombre, genero, (descripcion_fisica|imagen|url)?)>
+<!ATTLIST personaje
+  id ID #REQUIRED
+  tipo (principal|secundario|antagonista) "principal">
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT descripcion_fisica (#PCDATA)>
+<!ELEMENT imagen EMPTY>
+<!ATTLIST imagen
+  src CDATA #REQUIRED>
+  
+<!ELEMENT url EMPTY>
+<!ATTLIST url
+  href CDATA #REQUIRED>
+
+<!ELEMENT trama (#PCDATA)>
+<!ELEMENT etiqueta EMPTY>
+<!ATTLIST etiqueta
+  nombre CDATA #REQUIRED>
