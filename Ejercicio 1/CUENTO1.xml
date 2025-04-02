@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: Guillermo Lavado 
+Curso: DAW1 
+Fecha: 02/04/2025 
+Ejercicio: ejercicio1
+-->
 <!DOCTYPE cuento SYSTEM "marcadores_CUENTOS.dtd">
 <cuento cod="A01" titulo="La Cenicienta">
     <personajes>
